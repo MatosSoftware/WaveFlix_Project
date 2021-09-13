@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/responsive.css">
+   
+    <title>NETFLIX CLONE</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <svg viewbox="0 0 100 20">
+                <defs>
+                  <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+                    <stop offset="5%" stop-color="#E7100D"/>
+                    <stop offset="95%" stop-color="#872220"/>
+                  </linearGradient>
+                  <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
+                    <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)"> 
+                      <animateTransform
+                          attributeName="transform"
+                          begin="0s"
+                          dur="1.5s"
+                          type="translate"
+                          from="0,0"
+                          to="40,0"
+                          repeatCount="indefinite" />
+                    </path>
+                  </pattern>
+                </defs>
+                <text text-anchor="middle" x="50" y="15" font-size="12" fill="url(#wave)"  fill-opacity="0.8">WAVEFLIX</text>
+                <text text-anchor="middle" x="50" y="15" font-size="12" fill="url(#gradient)" fill-opacity="0.3">WAVEFLIX</text>
+              </svg>
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="Artistas.html">Artistas</a>
+                
+                <a href="Tendencias.html">Tendencias</a>
+
+                <!--OwlCarrousel CSS-->
+                <link rel="stylesheet" href="style/Owl/owl.carousel.min.css">
+                <link rel="stylesheet" href="style/Owl/owl.theme.default.min.css">
+
+            </nav>
+        </div>
+    </header>
+
+    <main class="listaMain">
+        <table>
+            <tr> 
+                <td>
+                    <ul>
+                        <li> <a class="musicaLista"  href="https://www.vagalume.com.br/ragnbone-man/human.html"> Human </a></li>
+                        <li> <a class="musicaLista"  href="https://www.vagalume.com.br/ragnbone-man/anywhere-away-from-here-with-pink.html">   
+                            Anywhere away from here </a> </li>
+                        <li> <a class="musicaLista"  href="https://www.vagalume.com.br/ragnbone-man/alone.html"> Alone </a> </li>
+                        <li> <a class="musicaLista"  href="https://www.vagalume.com.br/ragnbone-man/skin.html">   
+                            Skin </a> </li>
+                        <li> <a class="musicaLista"  href="https://www.vagalume.com.br/ragnbone-man/all-you-ever-wanted.html">  
+                             All you ever wanted </a> </li>
+                        <li> <a class="musicaLista"  href="https://www.vagalume.com.br/ragnbone-man/giant.html">  
+                             Giant </a> </li>
+                        <li> <a class="musicaLista"  href="https://www.vagalume.com.br/ragnbone-man/grace.html">   
+                            Grace </a> </li>
+                        <li> <a class="musicaLista"  href="https://www.vagalume.com.br/ragnbone-man/lay-my-body-down.html"> 
+                            Lay my body down </a> </li>
+                        <li> <a class="musicaLista"  href="https://www.vagalume.com.br/ragnbone-man/innocent-man.html">  
+                            Innocent man </a> </li>
+                        <li> <a class="musicaLista"  href="https://www.vagalume.com.br/ragnbone-man/fall-in-love-again.html"> 
+                            Fall in love again </a> </li>
+                    </ul>
+                </td>
+                <td>
+                    <img class="imagelistragnboneman" src="img/ragnbonemanlist.jpg">
+                </td>
+            </tr>
+        </table>
+    </main>
+
+    <footer class="rodape">WaveFlix Sound Database Corporation
+        <i class="fas fa-copyright"></i>
+    </footer>
+    
+
+    <script src="https://kit.fontawesome.com/34c65db35f.js" crossorigin="anonymous"></script>
+    <script src="js/Owl/jquery.min.js"></script>
+    <script src="js/Owl/owl.carousel.min.js"></script>
+    <script src="js/Owl/setup.js"></script>
+    
+    
+</body>
+</html>

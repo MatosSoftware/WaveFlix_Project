@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/responsive.css">
+   
+    <title>NETFLIX CLONE</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <svg viewbox="0 0 100 20">
+                <defs>
+                  <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+                    <stop offset="5%" stop-color="#E7100D"/>
+                    <stop offset="95%" stop-color="#872220"/>
+                  </linearGradient>
+                  <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
+                    <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)"> 
+                      <animateTransform
+                          attributeName="transform"
+                          begin="0s"
+                          dur="1.5s"
+                          type="translate"
+                          from="0,0"
+                          to="40,0"
+                          repeatCount="indefinite" />
+                    </path>
+                  </pattern>
+                </defs>
+                <text text-anchor="middle" x="50" y="15" font-size="12" fill="url(#wave)"  fill-opacity="0.8">WAVEFLIX</text>
+                <text text-anchor="middle" x="50" y="15" font-size="12" fill="url(#gradient)" fill-opacity="0.3">WAVEFLIX</text>
+              </svg>
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="Artistas.html">Artistas</a>
+                
+                <a href="Tendencias.html">Tendencias</a>
+
+                <!--OwlCarrousel CSS-->
+                <link rel="stylesheet" href="style/Owl/owl.carousel.min.css">
+                <link rel="stylesheet" href="style/Owl/owl.theme.default.min.css">
+
+            </nav>
+        </div>
+    </header>
+    <main>   
+        <div class="carrosel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <a href="RedHotChilliPeppers.html">
+                        <img class ="box-filme" src="img/RedHotChilliPeppersMini.jpg" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="Audioslave.html">
+                        <img class ="box-filme" src="img/AudioslaveMini.jpg" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="Creed.html">
+                        <img class ="box-filme" src="img/CreedMini.jpg" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="Radiohead.html">
+                        <img class ="box-filme" src="img/RadioheadMini.jpg" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="REM.html">
+                        <img class ="box-filme" src="img/REMMini.jpg" alt="" srcset="">
+                    </a>
+                </div>  
+                <div class="item">
+                    <a href="GreenDay.html">
+                        <img class ="box-filme" src="img/GreenDayMini.jpeg" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="Skank.html">
+                        <img class ="box-filme" src="img/SkankMini.jpg" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="LinkinPark.html">
+                        <img class ="box-filme" src="img/LinkinParkMini.jpg" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="Rag-N-Bone.html">
+                        <img class ="box-filme" src="img/RagNBoneManMini.jpg" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="PearlJam.html">
+                        <img class ="box-filme" src="img/PearlJamMini.jpg" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="The-Cranberries.html">
+                        <img class ="box-filme" src="img/TheCranberriesMini.jpg" alt="" srcset="">
+                    </a>
+                </div>
+            </div> 
+       </div> 
+    </main>
+
+    <footer class="rodape">WaveFlix Sound Database Corporation
+        <i class="fas fa-copyright"></i>
+       </footer>
+
+    
+ 
+    <script src="https://kit.fontawesome.com/34c65db35f.js" crossorigin="anonymous"></script>
+    <script src="js/Owl/jquery.min.js"></script>
+    <script src="js/Owl/owl.carousel.min.js"></script>
+    <script src="js/Owl/setup.js"></script>
+    
+    
+</body>
+</html>

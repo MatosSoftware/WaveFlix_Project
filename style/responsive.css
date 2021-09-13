@@ -1,0 +1,26 @@
+@media screen and (max-width:920px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 380px;
+    }
+
+    .tabela-mestra{
+        width:80%;
+    }
+    
+}
+
+@media screen and (min-width:1000px) {
+    .descricao{
+        width: 50%;
+    }
+    
+}
+
+
+

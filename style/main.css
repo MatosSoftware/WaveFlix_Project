@@ -11,7 +11,7 @@
 /*elemntos base*/
 body{
     background-color: var(--preta);
-    font-family: 'Times NeW Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif, Times, serif;
     color: white;
     
 }
@@ -21,6 +21,7 @@ header .container{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 header .logo{
@@ -40,22 +41,601 @@ header nav a:hover{
     color: #fff;
 }
 
-/*Elementos relacionados ao filme principal*/
+
 
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0, 0, 0,.50)100%), url('/img/houseofcardsmain1.jpg');
+   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/FotoTemainicial.jpeg");
 
-    height: 600px;
+    height: 700px;
     background-size: cover;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    
+   
 }
 
 .filme-principal .descricao{
-    margin-bottom: 90px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+ 
+
+}
+
+.filme-principal .titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tendencias{
+    font-size: 16px;
+   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/tendenciasimg.jpg");
+
+    height: 700px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+.tendencias .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+ 
+
+}
+
+.tendencias .titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.the-Cranberries{
+    font-size: 16px;
+   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/the-cranberries.jpg");
+
+    height: 700px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+.the-Cranberries .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+ 
+
+}
+
+.the-Cranberries .titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.creed{
+    font-size: 16px;
+   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/CreedMain.jpg");
+
+    height: 700px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+.creed .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+ 
+
+}
+
+.creed .titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.audioslave{
+    font-size: 16px;
+   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/audioslaveMain.jpg");
+
+    height: 700px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+.audioslave .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+ 
+
+}
+
+.audioslave .titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.redhotchillipeppers{
+    font-size: 16px;
+   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/redhotchillipeppersMain.jpg");
+
+    height: 700px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+.redhotchillipeppers .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+ 
+
+}
+
+.redhotchillipeppers .titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.greenDay{
+    font-size: 16px;
+   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/greenDayMain.jpg");
+
+    height: 700px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+.greenDay .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+ 
+
+}
+
+.greenDay .titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.linkinPark{
+    font-size: 16px;
+   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/LinkinParkMain.jpg");
+
+    height: 700px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+.linkinPark .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+ 
+
+}
+
+.linkinPark .titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.pearlJam{
+    font-size: 16px;
+   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/PearlJamMain.jpg");
+
+    height: 700px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+.pearlJam .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+ 
+
+}
+
+.pearlJam .titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ragNBone{
+    font-size: 16px;
+   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/RagNBoneMain.jpg");
+
+    height: 700px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+.ragNBone .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+ 
+
+}
+
+.ragNBone .titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.radiohead{
+    font-size: 16px;
+   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/RadioheadMain.jpg");
+
+    height: 700px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+.radiohead .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+ 
+
+}
+
+.radiohead .titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.rem{
+    font-size: 16px;
+   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/REMMain.jpg");
+
+    height: 700px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+.rem .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+ 
+
+}
+
+.rem .titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.skank{
+    font-size: 16px;
+   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/SkankMain.jpg");
+
+    height: 700px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+.skank .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+ 
+
+}
+
+.skank .titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50); 
+    border-color:transparent;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;   
+    cursor: pointer;
+    transition: .45s;
+}
+
+main div.filme-principal div.container div.botoes button.botao:hover{
+    background-color: white;
+    color:black;
+}
+
+main div.creed div.container div.botoes button.botao:hover{
+    background-color: white;
+    color:black;
+}
+
+main div.audioslave div.container div.botoes button.botao:hover{
+    background-color: white;
+    color:black;
+}
+
+main div.greenDay div.botoes button.botao:hover{
+    background-color: white;
+    color:black;
+}
+
+main div.linkinPark div.botoes button.botao:hover{
+    background-color: white;
+    color:black;
+}
+
+main div.pearlJam div.botoes button.botao:hover{
+    background-color: white;
+    color:black;
+}
+
+main div.radiohead div.botoes button.botao:hover{
+    background-color: white;
+    color:black;
+}
+
+main div.ragNBone div.botoes button.botao:hover{
+    background-color: white;
+    color:black;
+}
+
+main div.redhotchillipeppers div.botoes button.botao:hover{
+    background-color: white;
+    color:black;
+}
+
+main div.rem div.botoes button.botao:hover{
+    background-color: white;
+    color:black;
+}
+
+main div.skank div.botoes button.botao:hover{
+    background-color: white;
+    color:black;
+}
+
+
+
+.botao i{
+    margin-right: 8px;
     
+}
+
+button a{
+    text-decoration: none;
+    color:white;
+    font-size: 12px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.item{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    overflow:hidden;
+    
+}
+
+.item .box-filme{
+    width: 100%;
+   height: 100%;
+   -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+}
+
+.item .box-filme:hover{
+    -webkit-transform: scale(1.2) ;
+    transform: scale(1.2);
+}
+
+.carrosel-filmes{
+    margin-top: 10px;
+}
+
+svg {
+    font-weight: bold;
+    max-width: 600px;
+    height: auto;
+}
+
+.rodape{
+    padding: 20px;
+    background-color: var(--preta);
+    color: lightgray;    
+}
+
+.imagelist{
+    margin-left: 100px;
+    height:600px;
+    width: 900px;
+}
+
+.imagelistAudioslave{
+    filter: brightness(75%);
+    opacity: 0.7;  
+    margin-left: 330px; 
+    height:600px;
+    width: 900px;
+}
+.imagelistcreed{
+    filter: brightness(70%);
+    opacity: 0.7;  
+    margin-left: 330px;
+    height:600px;   
+    width: 900px;
+}
+
+.imagelistlinkinpark{
+    filter: brightness(80%);
+    opacity: 0.7;  
+    margin-left: 380px;
+    height:620px;
+    width: 900px;
+}
+
+.imagelistgreenday{
+
+    filter: brightness(70%);
+    opacity: 0.7;  
+    margin-left: 300px;
+    height:600px;   
+    width: 900px;   
+}
+
+.imagelistpearljam{
+    
+    filter: brightness(70%);
+    opacity: 0.7;   
+    margin-left: 350px;
+    height:600px;   
+    width: 900px;
+}
+
+.imagelistradiohead{
+    
+    filter: brightness(75%);
+    opacity: 0.7;   
+    margin-left: 200px;
+    height:600px;   
+    width: 900px;
+}
+
+.imagelistragnboneman{
+    
+    filter: brightness(75%);
+    opacity: 0.7;   
+    margin-left: 270px;
+    height:600px;   
+    width: 900px;
+}
+
+.imagelistredhotchillipeppers{
+    
+    filter: brightness(75%);
+    opacity: 0.7;   
+    margin-left: 350px;
+    height:600px;   
+    width: 900px;
+}
+
+.imagelistrem{
+    
+    filter: brightness(75%);
+    opacity: 0.7;   
+    height:600px;   
+    width: 920px;
+
+    float:left; margin-right:0px; margin-left:300px; margin-bottom:0px;
+}
+
+.imagelistskank{
+    
+    filter: brightness(75%);
+    opacity: 0.7;   
+    height:600px;   
+    width: 920px;
+
+    float:left; margin-right:0px; margin-left:350px; margin-bottom:0px;
+}
+
+.imagelistthecranberries{
+    
+    filter: brightness(75%);
+    opacity: 0.7;   
+    height:600px;   
+    width: 920px;
+
+    float:right; margin-right:0px; margin-left:320px; margin-bottom:0px; margin-right: 0px;
+}
+.musicaLista{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    
+}
+
+li {
+     margin-bottom:20px;
+     margin-left:20px;
+
+}
+
+
+
+.listaMain{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/listBackground.jpg");
 }
