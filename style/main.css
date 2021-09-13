@@ -72,7 +72,7 @@ header nav a:hover{
 
 .tendencias{
     font-size: 16px;
-   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/tendenciasimg.jpg");
+   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../img/");
 
     height: 700px;
     background-size: cover;
@@ -557,7 +557,7 @@ svg {
     
     filter: brightness(70%);
     opacity: 0.7;   
-    margin-left: 350px;
+    margin-left: 380px;
     height:600px;   
     width: 900px;
 }
@@ -566,7 +566,7 @@ svg {
     
     filter: brightness(75%);
     opacity: 0.7;   
-    margin-left: 200px;
+    margin-left: 220px;
     height:600px;   
     width: 900px;
 }
@@ -584,7 +584,7 @@ svg {
     
     filter: brightness(75%);
     opacity: 0.7;   
-    margin-left: 350px;
+    margin-left: 370px;
     height:600px;   
     width: 900px;
 }
@@ -595,8 +595,8 @@ svg {
     opacity: 0.7;   
     height:600px;   
     width: 920px;
-
-    float:left; margin-right:0px; margin-left:300px; margin-bottom:0px;
+    margin-left:300px;
+    
 }
 
 .imagelistskank{
@@ -605,8 +605,7 @@ svg {
     opacity: 0.7;   
     height:600px;   
     width: 920px;
-
-    float:left; margin-right:0px; margin-left:350px; margin-bottom:0px;
+    margin-left:350px;
 }
 
 .imagelistthecranberries{
@@ -615,8 +614,7 @@ svg {
     opacity: 0.7;   
     height:600px;   
     width: 920px;
-
-    float:right; margin-right:0px; margin-left:320px; margin-bottom:0px; margin-right: 0px;
+    margin-left:335px; 
 }
 .musicaLista{
     font-size: 25px;
